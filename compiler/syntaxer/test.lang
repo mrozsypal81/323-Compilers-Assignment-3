@@ -1,0 +1,9 @@
+x = a * b / c * d / e * g + f - h + i - j;
+
+x = a + b;
+
+x = a * b;
+
+x = a - b;
+
+x = a / b;
