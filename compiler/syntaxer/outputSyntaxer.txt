@@ -1,0 +1,192 @@
+
+
+===============================================
+Output Syntaxer file start here
+This part is added to separate every time compile if output file is not deleted
+===============================================
+
+
+Token        = 	IDENTIFIER
+Lexeme       = 	x
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	OPERATOR
+Lexeme       = 	=
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	a
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	*
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	b
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	/
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	c
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	*
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	d
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	/
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	e
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	*
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	g
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	+
+Grammar      = 	<Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	f
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	-
+Grammar      = 	<Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	h
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	+
+Grammar      = 	<Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	i
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	-
+Grammar      = 	<Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	j
+Grammar      = 	<ID> -> id
+
+Token        = 	SEPARATOR
+Lexeme       = 	;
+Grammar      = 	<Statement> -> <Assign><<Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	x
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	OPERATOR
+Lexeme       = 	=
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	a
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	+
+Grammar      = 	<Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	b
+Grammar      = 	<ID> -> id
+
+Token        = 	SEPARATOR
+Lexeme       = 	;
+Grammar      = 	<Statement> -> <Assign><<Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	x
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	OPERATOR
+Lexeme       = 	=
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	a
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	*
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	b
+Grammar      = 	<ID> -> id
+
+Token        = 	SEPARATOR
+Lexeme       = 	;
+Grammar      = 	<Statement> -> <Assign><<Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	x
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	OPERATOR
+Lexeme       = 	=
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	a
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	-
+Grammar      = 	<Expression> -> <Expression> + <Term> | <Expression> - <Term> | <Term>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	b
+Grammar      = 	<ID> -> id
+
+Token        = 	SEPARATOR
+Lexeme       = 	;
+Grammar      = 	<Statement> -> <Assign><<Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	x
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	OPERATOR
+Lexeme       = 	=
+Grammar      = 	<Statement> -> <Assign><Assign> -> <ID> = <Expression>;
+
+Token        = 	IDENTIFIER
+Lexeme       = 	a
+Grammar      = 	<ID> -> id
+
+Token        = 	OPERATOR
+Lexeme       = 	/
+Grammar      = 	<Term> -> <Term> * <Factor> | <Term> / <Factor> | <Factor>
+
+Token        = 	IDENTIFIER
+Lexeme       = 	b
+Grammar      = 	<ID> -> id
+
+Token        = 	SEPARATOR
+Lexeme       = 	;
+Grammar      = 	<Statement> -> <Assign><<Assign> -> <ID> = <Expression>;
+
